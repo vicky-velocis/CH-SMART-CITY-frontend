@@ -8,3 +8,4 @@ cd web/rainmaker
 pm2 stop all
 pm2 delete all
 pm2 start "npm run dev:citizen" --name citizen
+pm2 start "npm run dev:employee" --name employee
